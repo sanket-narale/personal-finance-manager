@@ -1,32 +1,40 @@
 💰 Personal Finance Manager
 
+The Personal Finance Manager is a command-line application built with Python and SQLite to help users track their income, expenses, and budgets. It enables users to manage their financial transactions, generate reports, set budget limits, and back up their data for security.
+
     A simple and secure CLI-based finance tracker built with Python and SQLite.
 
-    🚀 Features
-    
-    ✔️ User Registration & Login – Secure authentication using password hashing
-    
-    ✔️ Income & Expense Tracking – Categorize and manage transactions easily
-    
-    ✔️ Financial Reports – View monthly and yearly summaries of income, expenses, and savings
-    
-    ✔️ Budgeting – Set spending limits and get alerts when exceeding them
-    
-    ✔️ Data Backup & Restore – Keep your financial data safe with easy backup options
+🚀 Features
 
-📥 Installation
+⚫ User Authentication: Secure registration and login system.
 
-Step 1: Clone the Repository
+⚫ Income & Expense Tracking: Add, update, and delete transactions with category-based classification.
 
-    git clone <your-repo-url>
-    cd FinanceManager
+⚫ Financial Reports: Generate monthly and yearly summaries of income, expenses, and savings.
 
-Step 2: Install Dependencies
+⚫ Budgeting: Set spending limits for different categories and receive alerts when exceeded.
 
-    No additional dependencies are required—Python's built-in sqlite3 is used.
-    Ensure Python 3.7+ is installed on your system.
+⚫ Data Persistence: Uses SQLite for data storage and supports backup & restore functionality.
+
+⚫ User-Friendly CLI: Simple and intuitive command-line interface.
 
 
+
+📥 Installation(Prerequisites)
+
+  
+  
+Step 1: Install Dependencies
+
+   • Python 3.x installed
+
+   • SQLite3
+
+Step 2: Clone the repository
+
+      git clone https://github.com/sanket-narale/personal-finance-manager.git
+      cd personal-finance-manager
+      
 Step 3: Run the Application
 
     python finance_manager.py
@@ -34,29 +42,46 @@ Step 3: Run the Application
 
 📌 How to Use
 
-1️⃣ Register an Account – Sign up with a unique username and password.
 
-2️⃣ Log In – Securely access your personal finance dashboard.
+📌Register a new user
 
-3️⃣ Add Transactions – Record income and expenses under different categories (e.g., Food, Rent).
+  • Choose Register from the main menu.
 
-4️⃣ View Financial Reports – Get monthly or yearly summaries of your financial activity.
+  • Enter a unique username and password.
 
-5️⃣ Set a Budget – Define spending limits for different categories.
+📌Login
 
-6️⃣ Backup & Restore Data – Safeguard your records for future use.
+  • Use registered credentials to log in.
+
+📌Add Transactions
+
+  • Enter transaction amount, category (e.g., Rent, Food), type (income/expense), and date.
+
+📌View Financial Reports
+
+  • Choose the time period (monthly/yearly) to see total income, expenses, and savings.
+
+📌Set a Budget
+
+  • Set spending limits for specific categories.
+
+📌Backup & Restore Data
+
+  • Backup database to prevent data loss.
+
+  • Restore from a backup file if needed.
 
 
 
 🛠 Future Enhancements
 
-📌 Graphical Interface (GUI) – Convert the CLI into a user-friendly web or mobile app.
+✅ Add export functionality (CSV/PDF reports)
 
-📌 Export Data – Allow users to export reports as CSV or PDF.
+✅ Implement a graphical user interface (GUI)
 
-📌 Multi-User Support – Enable shared financial tracking for families or teams.
+✅ Multi-user support
 
-📌 AI-powered Insights – Provide smart suggestions for saving money.
+✅ Integration with bank APIs for automated transaction logging
 
 
 
